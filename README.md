@@ -147,7 +147,7 @@
         - 180/270 舵机每 20ms 平滑推进
         - 10ms 产生 `g_data_update_flag` 给主循环刷新（可选）
 
-### 架构图（GitHub 可渲染 Mermaid）
+### 架构图
 
 ```mermaid
 flowchart LR
