@@ -1,0 +1,88 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.39.0.0
+Copyright (C) 2023 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: a 2233406485@qq.com, a, LIC=03C6R-KHZ9T-74IS0-BVNZX-HME3W-PV92H
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.39.0.0
+Toolchain Path:  D:\APP\keil5\ARM\ARMCOMPLIER506\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.39.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      CMSIS_AGDI.dll V1.33.16.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+E:\text\项目\STM32\机械臂\Project6_注释加强版\Project6\MDK-ARM\Project.uvprojx
+Project File Date:  01/08/2026
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\APP\keil5\ARM\ARMCOMPLIER506\Bin'
+Build target 'Project'
+assembling startup_stm32f407xx.s...
+compiling stm32f4xx_hal_msp.c...
+compiling stm32f4xx_it.c...
+compiling tim.c...
+compiling usart.c...
+compiling gpio.c...
+compiling Timer.c...
+compiling adc.c...
+compiling UART.c...
+compiling MPU_ATK_MS6DSV.c...
+..\HardWare\MS6DSV\MPU_ATK_MS6DSV.c(140): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      gbias.gbias_x = angular_rate_mdps_avg[0] / 1000.0;
+..\HardWare\MS6DSV\MPU_ATK_MS6DSV.c(141): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      gbias.gbias_y = angular_rate_mdps_avg[1] / 1000.0;
+..\HardWare\MS6DSV\MPU_ATK_MS6DSV.c(142): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      gbias.gbias_z = angular_rate_mdps_avg[2] / 1000.0;
+..\HardWare\MS6DSV\MPU_ATK_MS6DSV.c: 3 warnings, 0 errors
+compiling atk_ms6dsv.c...
+compiling main.c...
+compiling demo.c...
+..\HardWare\MS6DSV\demo.c(1023): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      gbias.gbias_x = angular_rate_mdps_avg[0] / 1000.0;
+..\HardWare\MS6DSV\demo.c(1024): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      gbias.gbias_y = angular_rate_mdps_avg[1] / 1000.0;
+..\HardWare\MS6DSV\demo.c(1025): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      gbias.gbias_z = angular_rate_mdps_avg[2] / 1000.0;
+..\HardWare\MS6DSV\demo.c: 3 warnings, 0 errors
+compiling Servo.c...
+compiling Key.c...
+compiling movement.c...
+linking...
+Program Size: Code=18578 RO-data=1002 RW-data=76 ZI-data=2068  
+FromELF: creating hex file...
+"Project\Project.axf" - 0 Error(s), 6 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.1.0.pack
+                ARM::CMSIS@6.1.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 6.1.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F4xx_DFP.3.0.0.pack
+                Keil::STM32F4xx_DFP@3.0.0
+                STMicroelectronics STM32F4 Series Device Support
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_Project
+  D:/APP/keil5/ARM/CMSIS/6.1.0/CMSIS/Core/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@6.1.0
+Build Time Elapsed:  00:00:11
+</pre>
+</body>
+</html>
