@@ -1,0 +1,57 @@
+MPU_ATK_MS6DS陀螺仪
+
+VCC -> 3.3V
+
+SD0 -> PC0
+
+INT -> PC1
+
+SCL -> PB10
+
+SDA -> PB11
+
+
+
+按键
+
+Key1 -> PF6
+
+Key2 -> PF7
+
+Key3 -> PF8
+
+
+
+GPIO
+
+GPIO -> PF3
+
+GPIO -> PF4
+
+
+
+360°模式大扭矩舵机（第一关节）
+
+TIM2_CH2 -> PA1
+
+
+
+270°模式大扭矩舵机（第二关节）
+
+TIM2_CH3 -> PA2
+
+
+
+180°模式舵机（第三关节）
+
+TIM3_CH2 -> PA7
+
+
+
+蓝牙
+
+VCC -> 5V
+
+Rx -> PD5
+
+Tx -> PD6
